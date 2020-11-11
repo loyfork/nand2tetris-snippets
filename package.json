@@ -1,0 +1,131 @@
+{
+  "name": "nand2tetris-snippets",
+  "displayName": "nand2tetris snippets",
+  "description": "snippets for the nand2tetris, including hdl, tst and cmp files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Extension Packs",
+    "Language Packs"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hdl",
+        "aliases": [
+          "HDL",
+          "hdl"
+        ],
+        "extensions": [
+          ".hdl"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "tst",
+        "aliases": [
+          "TST",
+          "tst"
+        ],
+        "extensions": [
+          ".tst"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "cmp",
+        "aliases": [
+          "CMP",
+          "cmp"
+        ],
+        "extensions": [
+          ".cmp"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "out",
+        "aliases": [
+          "OUT",
+          "out"
+        ],
+        "extensions": [
+          ".out"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hdl",
+        "scopeName": "source.hdl",
+        "path": "./syntaxes/hdl.tmLanguage.json"
+      },
+      {
+        "language": "tst",
+        "scopeName": "source.tst",
+        "path": "./syntaxes/tst.tmLanguage.json"
+      },
+      {
+        "language": "cmp",
+        "scopeName": "source.cmp",
+        "path": "./syntaxes/cmp.tmLanguage.json"
+      },
+      {
+        "language": "out",
+        "scopeName": "source.out",
+        "path": "./syntaxes/out.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl-files/Elementary-logic-gates.code-snippets"
+      },
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl-files/Elementary-logic-gates-16Bit.code-snippets"
+      },
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl-files/Combinational-chips.code-snippets"
+      },
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl-files/Sequential-chips.code-snippets"
+      },
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl-files/Computer-Architecture.code-snippets"
+      },
+      {
+        "language": "tst",
+        "path": "./snippets/tst-files/Test-files.code-snippets"
+      },
+      {
+        "language": "tst",
+        "path": "./snippets/tst-files/Test-files-2var.code-snippets"
+      },
+      {
+        "language": "tst",
+        "path": "./snippets/tst-files/Test-files-3var.code-snippets"
+      },
+      {
+        "language": "cmp",
+        "path": "./snippets/cmp-files/Cmp-files-rows.code-snippets"
+      },
+      {
+        "language": "cmp",
+        "path": "./snippets/cmp-files/Cmp-files-heads.code-snippets"
+      },
+      {
+        "language": "cmp",
+        "path": "./snippets/cmp-files/Cmp-files-tables.code-snippets"
+      }
+    ]
+  }
+}

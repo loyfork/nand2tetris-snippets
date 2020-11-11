@@ -1,0 +1,85 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "TST",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#comment"
+    },
+    {
+      "include": "#grammar"
+    },
+    {
+      "include": "#blockComment"
+    },
+    {
+      "include": "#params"
+    },
+    {
+      "include": "#functions"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control",
+          "match": "\\b(load|output-file|compare-to|output-list)\\b"
+        },
+        {
+          "name": "keyword.other.unit",
+          "match": "set"
+        }
+      ]
+    },
+    "comment": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash",
+          "match": "//.*"
+        }
+      ]
+    },
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function",
+          "match": "(eval|output\\b)"
+        }
+      ]
+    },
+    "params": {
+      "patterns": [
+        {
+          "name": "markup.bold",
+          "match": "(1|0)"
+        }
+      ]
+    },
+    "grammar": {
+      "patterns": [
+        {
+          "name": "variable.language",
+          "match": "[a-zA-z]+\\.(hdl|out|cmp)"
+        }
+      ]
+    },
+    "blockComment": {
+      "patterns": [
+        {
+          "begin": "\\/\\*\\*",
+          "end": "\\*\\/",
+          "name": "comment.block"
+        },
+        {
+          "begin": "\\/\\*",
+          "end": "\\*\\/",
+          "name": "comment.block"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.tst"
+}
