@@ -10,7 +10,7 @@
 
 ### Syntx high-lighting
 
-![Syntax-High-Lighting](https//github.com/lukeJEdwards/nand2tetris-snippets/blob/master/images/Syntax-high-lighting.PNG?raw=true)
+![Syntax-High-Lighting](https://github.com/lukeJEdwards/nand2tetris-snippets/blob/master/images/Syntax-high-lighting.PNG?raw=true)
 
 ### Snippets
 
