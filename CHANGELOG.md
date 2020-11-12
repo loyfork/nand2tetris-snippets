@@ -1,5 +1,9 @@
 All notable changes to the "nand2tetris-snippets" extension will be documented in this file.
 
+## [0.0.4]
+
+- updated the README
+
 ## [0.0.3]
 
 - added icon
