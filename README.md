@@ -85,18 +85,18 @@
 
 ### cmp Snippets
 
-| Snippet | Body |
-| -------- | ---- |
-| Row-2 | ` | 0 | 0 | ` |
-| Row-3 | ` | 0 | 0 | 0 | ` |
-| Row-4 | ` | 0 | 0 | 0 | 0 | ` |
-| Row-5 | ` | 0 | 0 | 0 | 0 | 0 | ` |
-| Row-6 | ` | 0 | 0 | 0 | 0 | 0 | 0 | ` |
-| Head-2 | ` | a | b | out | ` |
-| Head-3 | ` | a | b | c | out | ` |
-| Head-4 | ` | a | b | c | d | out | ` |
-| Head-2-2 | ` | a | b | out | out | ` |
-| Head-2-2 | ` | a | b | c | out | out | ` |
+| Snippet  | Body             |
+| -------- | ---------------- |
+| Row-2    | ` 0 0`           |
+| Row-3    | ` 0 0 0`         |
+| Row-4    | ` 0 0 0 0`       |
+| Row-5    | ` 0 0 0 0 0`     |
+| Row-6    | ` 0 0 0 0 0 0`   |
+| Head-2   | ` a b out`       |
+| Head-3   | ` a b c out`     |
+| Head-4   | ` a b c d out`   |
+| Head-2-2 | ` a b out out`   |
+| Head-2-2 | ` a b c out out` |
 
 `Table-2`
 ```
