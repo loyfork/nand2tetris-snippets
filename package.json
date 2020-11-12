@@ -2,15 +2,16 @@
   "name": "nand2tetris-snippets",
   "displayName": "nand2tetris snippets",
   "description": "snippets for the nand2tetris, including hdl, tst and cmp files.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.51.0"
   },
-  "publisher": "Luke Edwards",
+  "publisher": "LukeEdwards",
   "author": {
     "name": "Luke Edwards",
     "url": "https://github.com/lukeJEdwards"
   },
+  "icon": "images/tetris.png",
   "keywords": [
     "hdl",
     "tst",
