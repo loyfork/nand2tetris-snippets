@@ -35,7 +35,7 @@
   },
   "Creates a 16 bit MUX Gate (Multiplexor)": {
     "prefix": "Mux16",
-    "body": "Mux(a=${1:a}, b=${2:b}, sel=${3:Selctor}, out=${4:out});",
+    "body": "Mux16(a=${1:a}, b=${2:b}, sel=${3:Selctor}, out=${4:out});",
     "description": [
       "Requires two 16 bit buses and applies the built in Mux gate.\n",
       "| a | b |sel|out|",

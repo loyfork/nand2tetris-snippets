@@ -14,7 +14,7 @@
   },
   "Creates a Register": {
     "prefix": "Register",
-    "body": "Register(in=${1:in}, load=${2:load}, out=${3:out});",
+    "body": "",
     "description": [
       "16-bit register.\n",
       "If load[t]=1 then out[t+1] = in[t]",
@@ -23,7 +23,7 @@
   },
   "Creates a RAM8": {
     "prefix": "RAM8",
-    "body": "RAM8(in=${1:in}, load=${2:load}, address=${3:addr}, out=${5:out});",
+    "body": "RAM8(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});",
     "description": [
       "Memory of 8 registers, each 16 bit-wide. Out holds the value\n",
       "stored at the memory location specified by address. If load=1, then ",
@@ -43,7 +43,7 @@
   },
   "Creates a RAM512": {
     "prefix": "RAM512",
-    "body": "RAM512(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});;",
+    "body": "RAM512(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});",
     "description": [
       "Memory of 512 registers, each 16 bit-wide. Out holds the value\n",
       "stored at the memory location specified by address. If load=1, then",
@@ -53,7 +53,7 @@
   },
   "Creates a RAM4K": {
     "prefix": "RAM4K",
-    "body": "RAM4K(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});;",
+    "body": "RAM4K(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});",
     "description": [
       "Memory of 4K registers, each 16 bit-wide. Out hold the value\n",
       "stored at the memory location specified by address. If load=1, then",
@@ -63,7 +63,7 @@
   },
   "Creates a RAM16K": {
     "prefix": "RAM16K",
-    "body": "RAM16K(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});;",
+    "body": "RAM16K(in=${1:in}, load=${2:load}, address=${3:addr}, out=${4:out});",
     "description": [
       "Memory of 16K registers, each 16 bit-wide. Out holds the value\n",
       "stored at the memory location specified by address. If load=1, then",

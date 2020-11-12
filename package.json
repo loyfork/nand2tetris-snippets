@@ -6,6 +6,31 @@
   "engines": {
     "vscode": "^1.51.0"
   },
+  "publisher": "Luke Edwards",
+  "author": {
+    "name": "Luke Edwards",
+    "url": "https://github.com/lukeJEdwards"
+  },
+  "keywords": [
+    "hdl",
+    "tst",
+    "out",
+    "cmp",
+    "nand2tetris",
+    "snippets",
+    "syntax-highlighting",
+    "syntaxhighlighting",
+    "language support"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lukeJEdwards/nand2tetris-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeJEdwards/nand2tetris-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/lukeJEdwards/nand2tetris-snippets/issues"
+  },
   "categories": [
     "Programming Languages",
     "Snippets",

@@ -25,7 +25,7 @@
   },
   "Creates a NOT Gate": {
     "prefix": "Not",
-    "body": "Not(in=${1:a}, out=${3:out});",
+    "body": "Not(in=${1:a}, out=${2:out});",
     "description": [
       "Takes a input (in) and nagates it.\n",
       "| a |out|",
