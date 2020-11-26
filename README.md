@@ -128,7 +128,7 @@
 
 ```
 | a | b | c |out|out|
-| 0 |0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 0 | 0 | 0 |
@@ -137,6 +137,13 @@
 ### language support
 
 - add lanuage support for hdl, tst, cmp and out.
+
+## Updates
+
+### 0.0.5
+
+- updated the tst syntax highlighting
+- updated the README
 
 ### 0.0.4
 

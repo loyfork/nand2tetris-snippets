@@ -1,8 +1,8 @@
 {
   "name": "nand2tetris-snippets",
   "displayName": "nand2tetris snippets",
-  "description": "snippets for the nand2tetris, including hdl, tst and cmp files.",
-  "version": "0.0.4",
+  "description": "snippets nand2tetris hdl, tst and cmp files, lanuage support and syntax-highlighting for hdl, tst, cmp and out files",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.51.0"
   },
