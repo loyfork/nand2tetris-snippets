@@ -1,7 +1,7 @@
 {
   "Creates a Half Adder": {
     "prefix": "HalfAdder",
-    "body": "HalfAdder(a=${1:a}, b=${2:b}, out=${3:out}, carry=${4:carry});",
+    "body": "HalfAdder(a=${1:a}, b=${2:b}, sum=${3:out}, carry=${4:carry});",
     "description": [
       "Takes two inputs and applies a binary addition to get an outout.\n",
       "| a | b |out|car|",
@@ -13,7 +13,7 @@
   },
   "Creates a Full Adder": {
     "prefix": "FullAdder",
-    "body": "FullAdder(a=${1:a}, b=${2:b}, cin=${3:cin}, sum=${4:sum}, carry=${5:carry});",
+    "body": "FullAdder(a=${1:a}, b=${2:b}, c=${3:c}, sum=${4:out}, carry=${5:carry});",
     "description": [
       "Takes three inputs and applies a binary addition to get an outout.\n",
       "| a | b |cin|sum|car|",

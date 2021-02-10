@@ -3,8 +3,8 @@
     "prefix": "Chip",
     "body": [
       "CHIP ${1:Name} {\n",
-      "\tIN ${2:input}",
-      "\tOUT ${3:out}",
+      "\tIN ${2:input};",
+      "\tOUT ${3:out};",
       "\tPARTS:",
       "\t// Code here",
       "}"
