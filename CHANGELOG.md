@@ -1,5 +1,16 @@
 All notable changes to the "nand2tetris-snippets" extension will be documented in this file.
 
+## [0.0.6]
+
+- piterfm
+  - Fix a typo in And16 snippet
+- loyio
+  - add asm ext support
+  - syntax fix on half and full adders snippet
+  - syntax fix for the CHIP snippet
+  - syntax fix for DMux8Way snippet
+  - syntax fix for Mux8Way16 snippet
+
 ## [0.0.5]
 
 - Updated the syntax high-lighting for tst files.
