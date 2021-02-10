@@ -1,6 +1,6 @@
 # nand2tetris-snippets
 
-![licence](https://img.shields.io/bower/l/Mi) ![maintenance](https://img.shields.io/maintenance/yes/2020) ![release](https://img.shields.io/github/v/release/lukeJEdwards/nand2tetris-snippets)
+![licence](https://img.shields.io/badge/license-MIT-green) ![maintenance](https://img.shields.io/maintenance/yes/2021) ![release](https://img.shields.io/github/v/release/lukeJEdwards/nand2tetris-snippets)
 
 ## Features
 
